@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BazaFootballManager" Class="BazaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Erazer\Documents\BazaFootballManager.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="Football_Manager.Properties.Settings" SettingsPropertyName="BazaFootballManagerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Druzyna" Member="Druzynas">
+    <Type Name="Druzyna">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nazwa" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AttOvr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MidOvr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DefOvr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartBudget" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Druzyna_Zawodnik" Member="Zawodniks" ThisKey="Id" OtherKey="DruzynaId" Type="Zawodnik" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Zawodnik" Member="Zawodniks">
+    <Type Name="Zawodnik">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nazwisko" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SkillOvr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Pozycja" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DruzynaId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Druzyna_Zawodnik" Member="Druzyna" ThisKey="DruzynaId" OtherKey="Id" Type="Druzyna" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Baza">
+  <DataContextMoniker Name="/BazaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ed6c0eb2-35b8-4513-9b29-88a0a321988b" absoluteBounds="0.75, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/BazaDataContext/Druzyna" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4ccf142-c7ab-42c8-8d24-5590d1d4950d" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="252e98d5-1260-491d-bf56-a37b724dd662" absoluteBounds="3.5, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/BazaDataContext/Zawodnik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df43abed-6307-4f03-aa78-10f5387b3449" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.88544840494792); (3.5 : 1.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BazaDataContext/Druzyna/Druzyna_Zawodnik" />
+      <nodes>
+        <classShapeMoniker Id="ed6c0eb2-35b8-4513-9b29-88a0a321988b" />
+        <classShapeMoniker Id="252e98d5-1260-491d-bf56-a37b724dd662" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
