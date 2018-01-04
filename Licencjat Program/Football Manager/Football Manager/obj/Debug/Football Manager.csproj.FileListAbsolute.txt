@@ -1,0 +1,13 @@
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\bin\Debug\Football Manager.exe.config
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\bin\Debug\Football Manager.exe
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\bin\Debug\Football Manager.pdb
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football Manager.csprojResolveAssemblyReference.cache
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football_Manager.Properties.Resources.resources
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football Manager.csproj.GenerateResource.Cache
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football Manager.exe
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football Manager.pdb
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football_Manager.OknoZarzadzania.resources
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football_Manager.OknoZarzadzania2.resources
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football_Manager.OknoZarzadzania3.resources
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football_Manager.OknoZarzadzania4.resources
+C:\Users\Erazer\Desktop\Licencjat Program\Football Manager\Football Manager\obj\Debug\Football_Manager.OknoGlowne.resources
