@@ -31,6 +31,8 @@ namespace Football_Manager
             grafika = Graphics.FromImage(pbTablicaTaktyczna.Image);
             grafika.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             cbListaDruzyn.DisplayMember = "Nazwa";
+            bZatwierdzDruzyne.Enabled = false;
+            OdrysujUstawienieDomyslne();
             pbTablicaTaktyczna.Hide();
             lTrening.Hide();
             gbFormacji.Hide();
@@ -75,6 +77,26 @@ namespace Football_Manager
         {
             //pbTablicaTaktyczna.ImageLocation = @"C:\Users\Erazer\Desktop\Licencjat Program\Pliki graficzne\Tablica Taktyczna.png;
             grafika.Clear(Color.Transparent);
+            pbTablicaTaktyczna.Refresh();
+        }
+        private void OdrysujUstawienieDomyslne()
+        {
+            CzyscTablice();
+            grafika.FillEllipse(new SolidBrush(Color.White), 10, 152, 30, 30);
+
+            grafika.FillEllipse(new SolidBrush(Color.White), 100, 122, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 100, 182, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 120, 40, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 120, 264, 30, 30);
+
+            grafika.FillEllipse(new SolidBrush(Color.White), 230, 152, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 240, 70, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 240, 234, 30, 30);
+
+            grafika.FillEllipse(new SolidBrush(Color.White), 400, 152, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 390, 70, 30, 30);
+            grafika.FillEllipse(new SolidBrush(Color.White), 390, 234, 30, 30);
+
             pbTablicaTaktyczna.Refresh();
         }
         private void b433_Click(object sender, EventArgs e) // FORMACJA 4-3-3
@@ -327,6 +349,11 @@ namespace Football_Manager
             cbListaZawodnikow.Items.Clear();
             cbListaZawodnikow.Items.AddRange(ListaZawodnikowDruzyny.ToArray());
             cbListaZawodnikow.DisplayMember = "Nazwisko";
+        }
+
+        private void cbListaDruzyn_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            bZatwierdzDruzyne.Enabled = true;
         }
     }
 }

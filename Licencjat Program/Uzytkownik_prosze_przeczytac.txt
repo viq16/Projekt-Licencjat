@@ -1,0 +1,11 @@
+Plik wykonalny projektu znajduje siê w œcie¿ce 
+Licencjat Program\Football Manager\Football Manager\bin\Debug\Football Manager.exe
+
+Aby móc uruchomiæ plik wykonalny nale¿y najpierw do³¹czyæ  bazê do wykorzystywanych przez projekt.
+1. Prawym przyciskiem na opcje projektu
+2. Wybraæ Settings
+3. Wybraæ odpowiedni¹ bazê
+4. Typ Connection String
+5. Scope Application
+6. Value dostosowaæ do katalogu w którym znajduje siê baza
+7. Raz skompilowaæ projekt

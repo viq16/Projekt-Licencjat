@@ -87,6 +87,7 @@
             this.cbListaDruzyn.Name = "cbListaDruzyn";
             this.cbListaDruzyn.Size = new System.Drawing.Size(168, 21);
             this.cbListaDruzyn.TabIndex = 1;
+            this.cbListaDruzyn.SelectedIndexChanged += new System.EventHandler(this.cbListaDruzyn_SelectedIndexChanged);
             // 
             // lTwojaD
             // 
@@ -113,7 +114,7 @@
             this.pbTablicaTaktyczna.BackColor = System.Drawing.Color.Transparent;
             this.pbTablicaTaktyczna.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbTablicaTaktyczna.BackgroundImage")));
             this.pbTablicaTaktyczna.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pbTablicaTaktyczna.Location = new System.Drawing.Point(13, 62);
+            this.pbTablicaTaktyczna.Location = new System.Drawing.Point(13, 64);
             this.pbTablicaTaktyczna.Name = "pbTablicaTaktyczna";
             this.pbTablicaTaktyczna.Size = new System.Drawing.Size(532, 355);
             this.pbTablicaTaktyczna.TabIndex = 7;

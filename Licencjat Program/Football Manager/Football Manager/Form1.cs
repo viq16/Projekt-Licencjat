@@ -31,7 +31,7 @@ namespace Football_Manager
             OknoTreningowe.wDruzynyNazwa += w_DruzynyNazwa;
             OknoTreningowe.wDruzynyNazwa += w_DruzynyNazwa2;
             OknoMeczowe.wyslijWyniki += wyslij_Wyniki;
-
+            OknoMeczowe.dodajPunkty += dodaj_Punkty;
 
             //---------------------------------
             flpPanelSterowania.Controls.Add(OknoTreningowe);
@@ -50,6 +50,10 @@ namespace Football_Manager
             bZatwierdz.Enabled = false;
         }
         //---------------------------------
+        private void dodaj_Punkty(List<DruzynaPunkty> d)
+        {
+            OknoTabeli.OtrzymajPunkty(d);
+        }
         private void w_Druzyny(Druzyna d)
         {
             OknoStatystyk.ZmienNazwe(d.ToString());

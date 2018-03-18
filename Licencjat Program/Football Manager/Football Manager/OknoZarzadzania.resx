@@ -121,7 +121,7 @@
   <data name="pbTablicaTaktyczna.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAhQAAAFjCAIAAADq1wVWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAKggSURBVHhe7Z0FeNxG2sdHrF3bSdqmvVLQvOvlXdthToNN
+        YQUAAAAJcEhZcwAADr0AAA69AUf7kK0AAKggSURBVHhe7Z0FeNxG2sdHrF3bSdqmvVLQvOvlXdthToNN
         uWnSpsztV8a7MlNSuDIz46UMd71yOGW4tknDZraD+t53RivLu17Hie0YdvL8HkXWSqOBd97/zGg0Itde
         c+M777z3/ocf/Ou9+W9/9PbbH8F2/jsfzn/vw/nvf/D2B++/+8F778O/9z7YAd59/71miTnNIuY0i5jT
         ON2ULvUvGqt33we7QwtHYOe9D97+6JP33/3onbc/eOfd99+BM8HyP3z7/ff+9e47770L/wPz33sXsPbZ
@@ -845,7 +845,7 @@
   <data name="pTlaGb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZ8AAABxCAIAAACFuTmFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAP+lSURBVHheJP3lcyxbmuaJLgUzMzMzs4IUjKIAKUKKEIWY
+        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAP+lSURBVHheJP3lcyxbmuaJLgUzMzMzs4IUjKIAKUKKEIWY
         mRm2tjbz4ZMnT2ZlZVZmVXVN9Ux327Rdu/d+uB+uzX80Sz1mbtuk2JKHfPn7Ps/vcV++AvCnEKpZqm2F
         XPsoDx9hvZtC96rLcKaPPdqNSzTZJEE0xWU0yNZl3uC1LrCn9u6JzFsk3RrCvk+MnPI961x1kyDogegl
         3zuPczf6Ii2yY5RkaTDUdSYjDyyDhP4hlmuQpe8I6MPY/g2tvULgRCnSAY44xub6yMJ+qqHK09Xo4grS

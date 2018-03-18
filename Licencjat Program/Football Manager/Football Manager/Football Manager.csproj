@@ -53,6 +53,7 @@
       <DependentUpon>Baza.dbml</DependentUpon>
     </Compile>
     <Compile Include="DruzynaK.cs" />
+    <Compile Include="DruzynaPunkty.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

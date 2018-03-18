@@ -1,0 +1,11 @@
+Aby dostaæ siê do kodu Ÿród³owego oraz ca³ego projektu wystarczy uruchomiæ projekt nazwany 
+"Football Manager" typu MVSS znajduj¹cym siê w folderze o nazwie "Football Manager". Wszystkie pliki 
+bazodanowe znajduj¹ siê tak¿e w s¹siednim folderze. To samo równie¿ dotyczy plików graficznych.
+
+Aby uruchomiæ kompilacjê nale¿y najpierw do³¹czyæ  bazê do wykorzystywanych przez projekt.
+1. Prawym przyciskiem na opcje projektu
+2. Wybraæ Settings
+3. Wybraæ odpowiedni¹ bazê
+4. Typ Connection String
+5. Scope Application
+6. Value dostosowaæ do katalogu w którym znajduje siê baza
